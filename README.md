@@ -11,7 +11,7 @@ Features
 --------
 
 #### Common
- * Run an interpreter (REPL) inside SublimeText2 view/tab.
+ * Run an interpreter (REPL) inside SublimeText view/tab.
  * Per-language persistent REPL history.
  * Easily evaluate code in the running REPL
  * Replace your current build system, and use stdin in your programs.
@@ -20,7 +20,7 @@ Features
 #### Python
  * Launch python in local or remote(1) virtualenv.
  * Quickly run selected script or launch PDB.
- * Use SublimeText2 Python console with history and multiline input.
+ * Use SublimeText Python console with history and multiline input.
 
 (1) - (ssh, linux/osx only)
 
@@ -44,7 +44,7 @@ Installation
 2. Install SublimeREPL
  1. `Preferences | Package Control | Package Control: Install Package`
  2. Choose `SublimeREPL`
-3. Restart SublimeText2
+3. Restart SublimeText
 4. Configure `SublimeREPL` (default settings in `Preferences | Package Settings | SublimeREPL | Settings - Default` should be modified in `Preferences | Package Settings | SublimeREPL | Settings - User`, this way they will survive package upgrades!
 
 Documentation
@@ -76,14 +76,12 @@ then type "SublimeREPL" and select the approperiate language.
 Note: <kbd>ctrl+,</kbd>, <kbd>f</kbd> means: press Ctrl and Comma, release all, press F.
 
 
-License and Price
+License
 =================
 
 Since version 1.2.0 SublimeREPL is licensed under GPL. Previous versions were licensed under BSD.
-If you're using SublimeREPL in commercial environment a donation is strongly encouraged ;-)
 
 Compatibility
 ================
 
 SublimeREPL is developed against the latest dev build of SublimeText3.
-Ubuntu 13.04 is main
