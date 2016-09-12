@@ -206,6 +206,7 @@ class SubprocessRepl(Repl):
         return " ".join([str(x) for x in self._cmd])
 
     def is_alive(self):
+        return True
         return self.popen.poll() is None
 
     def read_bytes(self, buffer_size=4096):
