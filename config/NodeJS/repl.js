@@ -4,9 +4,10 @@
     var repl = require('repl');
 
     var rep = repl.start({
-        input:     process.stdin,
-        output:    process.stdout,
-        useGlobal: true,
+        prompt:    '> ', //null,
+        source:    null, //process.stdin,
+        eval:      null, //require('vm').runInThisContext,
+        useGlobal: true, //false
         useColors: false
     });
 
